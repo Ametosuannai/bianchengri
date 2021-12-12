@@ -1,0 +1,44 @@
+body{
+	background-color:black;
+	background-image:url("2.jpg");
+	background-size: cover;
+}
+div{
+	position:relative;
+	/*定位*/
+	top:20px;
+}
+img{
+	height:100px;
+	width:100px;
+
+	display:block;
+	margin:auto;
+	border-radius: 50%;
+}
+P{
+	text-align: center;
+}
+#container{
+	background-color:white;
+	opacity:60%;
+
+	height:500px;
+	width:500px;
+
+	margin:auto;
+	top:100px;
+
+	border-radius:250px;
+}
+#title p{
+	font-family:"宋体";
+	font-size: 30px;
+	/*字体大小*/
+	font-weight:bold;
+	/*字体粗细*/
+
+}
+#title :hover{
+	color:#66ccFF;
+}
